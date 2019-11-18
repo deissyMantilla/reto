@@ -1,0 +1,65 @@
+.global{
+    background-color: black;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 1fr 3fr 2fr;
+    /* grid-template-columns: 100px 300px ; */
+    grid-template-rows: 150px 150px 100px 100px 100px; 
+}
+.box{
+background-color: white;
+width: 100%;
+height: 100%;
+color: white;
+}
+.boxAmarillo{
+    background-color: yellow;
+    width: 100%;
+    height: 100%;
+    color: yellow;
+}
+.boxRojo{
+    background-color: red;
+    width: 100%;
+    height: 100%;
+    grid-row: 2/4;
+    grid-column: 2/3;
+    color: red;
+}
+.divididoDos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    background-color: black;
+}
+.boxPequeno{
+     width: 100%;
+    height: 100%; 
+    color: white;
+    background-color: white;
+}
+.largo{
+    grid-column: 1/2;
+    grid-row: 3/5;
+}
+.boxDivididoVertical{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    background-color: black;
+}
+.boxPequenoNegro{
+    width: 100%;
+    height: 100%; 
+    color: black;
+    background-color: black;
+}
+.cuatro{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.boxAzul{
+    background-color: blue;
+    color: blue;
+}
